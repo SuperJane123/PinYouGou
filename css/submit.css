@@ -1,0 +1,282 @@
+
+/*footer {
+    margin-top: 300px;
+}*/
+body {
+    font-family: 'simsun';
+}
+/*公共样式部分*/
+.yahei {
+    font-family: 'MicrosoftYaHei'
+}
+
+.col_bl {
+    color: #1474af;
+}
+
+/*头部样式开始*/
+
+.header {
+    height: 100px;
+    border-bottom: 0;
+}
+.header .search {
+    left: 773px;
+    width: 424px;
+    border: 2px solid #b1191a;
+
+}
+.header .search input[type="text"] {
+    width: 341px;
+}
+.header .logo_text {
+    position: absolute;
+    top: 42px;
+    left: 197px;
+    font-size: 19px;
+    
+    color: #333;
+}
+.header .logo_text h4 {
+    font-weight: normal;
+}
+
+
+/*头部样式结束*/
+
+
+
+/*填写信息部分样式开始*/
+
+.submit_form .submit_title h4 {
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: normal;
+    color: #666;
+
+}
+.submit_form  .submit_content {
+    border: 1px solid #ddd;
+}
+.submit_form .submit_content {
+    padding: 38px 25px 0;
+}
+.submit_content .reciver_info {
+    border-bottom: 1px solid #ddd;
+}
+.submit_content .reciver_info .reciver_titel {
+    margin-left: 25px;
+    font-size: 14px;
+    color: #333;
+}
+.submit_content .reciver_info  .reciver_titel >a {
+    font-size: 12px;
+    color: #1474af
+
+}
+.submit_content .reciver_info .reciver_content {
+   margin: 19px 0 19px 44px;
+}
+.submit_content .reciver_info .reciver_content>a {
+    display: inline-block;
+    margin-right: 11px;
+    width: 140px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+}
+
+.submit_content .reciver_info .reciver_content>a:hover {
+    color: #666 !important;
+    outline: 2px solid #c81623;
+}
+.submit_content .reciver_info .reciver_more {
+    margin: 0 0 20px 44px;
+}
+.submit_content .reciver_info .reciver_more .iconfont{
+    margin-left: 8px;
+}
+.submit_content .match_pick {
+    padding: 20px 0;
+     border-bottom: 1px solid #ddd;
+}
+.submit_content .match_pick>a {
+    margin: 0 10px 0 44px;
+    display: inline-block;
+    width: 142px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+.submit_content .match_pick>a:hover {
+    color: #666 !important;
+    outline: 2px solid #c81623;
+}
+
+.submit_content .payment_way {
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+}
+.submit_content .payment_way .pay_title {
+    margin: 0 0 20px 25px;
+}
+.submit_content .payment_way pay_title h4 {
+    font: 14px 'MicrosoftYaHei';
+    color: #333;
+}
+.submit_content .payment_way .payment_type {
+    margin-left: 55px;
+}
+.submit_content .payment_way .payment_type>a {
+    display: inline-block;
+    width: 96px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+.submit_content .payment_way .payment_type>a:hover {
+    color: #666 !important;
+    outline: 2px solid #c81623;
+}
+.submit_content .payment_way .payment_type .more {
+    margin-left: 25px;
+}
+.submit_content .goods_list  {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+}
+.submit_content .goods_list .list_title {
+   padding: 20px 0;
+   margin-left: 25px;
+}
+.submit_content .goods_list .list_title h4 {
+    font: 600 14px 'MicrosoftYaHei';
+    color: #333;
+}
+.submit_content .goods_list .delivery_way {
+    padding: 20px 35px 20px 25px;
+    border-bottom: 1px solid #fff;
+    background: #f4f4f4;
+}
+.submit_content .goods_list .delivery_way .title {
+    font-weight: 600;
+}
+
+ .goods_list .delivery_way .express {
+     margin-top: 20px;
+ }
+ .goods_list .delivery_way .express a:first-child {
+    display: inline-block;
+    margin: 0 45px 0 25px;
+    width: 140px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    
+ }
+  .goods_list .delivery_way .express a:first-child:hover {
+    outline: 2px solid #c81623;
+    background: #fff;
+    color: #666 !important;
+  }
+  .goods_list .delivery_type {
+      padding: 20px 35px 20px 25px;
+      background: #feedef
+  }
+   .goods_list .delivery_type .delivery_left h4 {
+       font-weight: 600;
+   }
+.goods_list .delivery_type .delivery_left>a img {
+    margin-top: 18px;
+    margin-left: 20px;
+    border: 1px solid #ddd;
+}
+
+.goods_list .delivery_type .delivery_left .pro_info {
+    margin: 18px 0 0 110px;
+    width: 330px;
+}
+.goods_list .delivery_type .delivery_left .pro_info p {
+   line-height: 20px;
+   margin-bottom: 25px;
+
+}
+
+.delivery_type .delivery_left .pro_info .seven {
+    color: #c81623;
+}
+.delivery_type .delivery_right {
+    margin-top: 44px;
+}
+.delivery_type .delivery_right .price{
+    font: 600 14px 'MicrosoftYaHei';
+    color: #e12228;
+    margin-right: 48px;
+}
+.delivery_type .delivery_right .have {
+    margin-left: 75px;
+}
+.submit_content .inv_info {
+    padding: 20px 25px;
+}
+.submit_content .inv_info h4 {
+    font: 600 14px 'MicrosoftYaHei';
+    color: #333;
+}
+.submit_content .inv_info .inv_detail {
+    margin: 20px 0 20px 19px;
+}
+.submit_content .inv_info .inv_detail .per {
+    margin-right: 25px;
+}
+.submit_content .inv_info p>a{
+    font: 600 14px 'MicrosoftYaHei';
+    color: #333;
+}
+
+.submit_form .settle {
+    padding: 20px 30px;
+}
+.submit_form .settle p {
+    height: 20px;
+}
+.submit_form .settle .settle_detail {
+    margin-left: 886px;
+}
+.submit_form .settle .settle_money p {
+    font-family: 'MicrosoftYaHei'
+}
+.submit_form .settle .settle_money p:nth-child(3) {
+    font-weight: 600;
+    color: #e60012;
+}
+.submit_form .settle_foot {
+    padding: 20px 30px;
+    text-align: right;
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+}
+.submit_form .settle_foot .money em {
+    font: 600 16px 'MicrosoftYaHei';
+    color: #e60012
+}
+.submit_form .settle_foot p {
+    margin-top: 3px;
+    color: #999
+}
+.submit_form .submit_btn {
+   margin: 20px 30px 30px 0px;
+   
+}
+.submit_form .submit_btn button {
+    float: right;
+    width: 142px;
+    height: 46px;
+    font: 600 18px 'MicrosoftYaHei';
+    background: #df3033;
+    color: #fff;
+
+}
+/*填写信息部分样式结束*/

@@ -1,0 +1,172 @@
+/*公共样式*/
+.col_red {
+    color: #df3023;
+
+}
+
+.iconfont {
+    font-size: 20px;
+    margin-left: 8px;
+}
+
+
+
+
+/*头部样式开始*/
+
+header .logo {
+    border-bottom: 2px solid #b1191a;
+    padding: 17px 0 10px 0;
+}
+
+header .logo a {
+    display: block;
+    width: 175px;
+    height: 56px;
+    background: url('../images/logo.png') no-repeat;
+    font-size: 0;
+}
+/*头部样式结束*/
+
+
+
+/*表单样式开始*/
+.form {
+    border: 1px solid #dfdfdf;
+    padding-bottom: 56px;
+}
+.form .f_head {
+    background: #ececec;
+    padding: 12px 10px;
+    border-bottom: 1px solid #dfdfdf;
+}
+.form .f_head h3 {
+    font-size: 18px;
+    color: #333;
+    font-weight: normal;
+}
+.form .f_head .account {
+    font-size: 14px;
+    color: #333;
+}
+.form .f_body {
+    width: 100%;
+    text-align: right;
+    margin: 54px 0 0 310px;
+}
+.form .f_body .col_red {
+    text-align: left;
+}
+.form .f_body input[type="tel"],
+.form .f_body input[type="text"],
+.form .f_body input[type="password"]
+{
+    width: 238px;
+    height: 34px;
+    border: 1px solid #999;
+    margin: 10px 0;
+}
+.form .f_body input[type="password"] {
+    margin: 20px 0;
+}
+.form .f_body .safe>span {
+    font-size: 12px;
+    color: #bebebe;
+    float: right;
+    margin-right: 2px;
+}
+.form .f_body .safe>.red {
+    width: 34px;
+    height: 13px;
+    background: #de1111;
+    line-height: 13px;
+    text-align: center;
+    color: #fff;
+    margin-left: 10px;
+   
+}
+.form .f_body .safe>.green {
+    width: 34px;
+    height: 13px;
+    background: #40b83f;
+    line-height: 13px;
+    text-align: center;
+    color: #fff;
+}
+.form .f_body .safe>.orange {
+    width: 34px;
+    height: 13px;
+    background: #f79100;
+    line-height: 13px;
+    text-align: center;
+    color: #fff;
+}
+.form .f_body table .agree {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    text-align: left;
+ } 
+ .form .f_body table .agree>img {
+    margin-right: 10px;
+  
+}
+
+ .form .f_body table .agree>a {
+     color: #1ba1e6;
+ }
+.form .f_body table input[type="checkbox"] {
+    position: relative;
+    top: 3px;
+    margin-right: 8px;
+    width: 14px;
+    height: 14px;
+}
+.form .f_body table .finish {
+    display: block;
+    width: 200px;
+    height: 34px;
+    background: #c81623;
+    font-size: 16px;
+    color: #fff;
+    line-height: 34px;
+    text-align: center;
+    margin-left: 8px;
+    
+}
+
+/*表单样式结束*/
+
+/*尾部样式开始*/
+
+footer {
+    padding: 24px 0 35px 0;
+    text-align: center;
+}
+footer .w ul {
+    margin-left: 114px;
+}
+
+footer li {
+    float: left;
+    font-size: 12px; 
+}
+footer li a {
+    color: #666;
+}
+footer li.line {
+    width: 1px;
+    height: 12px;
+    background: #999;
+    margin: 0 15px;
+}
+footer .w>p{
+    height: 20px;
+    font-size: 12px; 
+    color: #666;
+}
+footer .w p:nth-child(2) {
+    margin-top: 14px;
+    margin-bottom: 5px;
+}
+
+/*尾部样式结束*/

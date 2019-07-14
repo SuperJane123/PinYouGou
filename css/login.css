@@ -1,0 +1,138 @@
+
+/*头部结构开始*/
+header {
+    padding: 16px 0 7px 0;
+}
+header h1>a {
+    display: block;
+    width: 175px;
+    height: 56px;
+    background: url('../images/logo.png');
+    font-size: 0;
+}
+
+/*头部结构结束*/
+
+
+/*中间登录部分样式开始*/
+.banner {
+    background: #7e00ff;
+}
+
+.banner .b_bg {
+    height: 486px;
+    background: url('../images/loginbg.png') no-repeat;
+}
+.banner .b_bg .per_info {
+   margin: 60px 117px 0 0;
+
+    padding: 22px 38px 15px;
+    width: 304px;
+    background: #fff;
+
+}
+
+ .b_bg .per_info .login a {
+    font-size: 18px;
+}
+ .b_bg .per_info .login {
+     padding: 0 10px;
+ }
+ .b_bg .per_info .login .line {
+    display: inline-block;
+    margin: 0 65px;
+    width: 1px;
+    height: 20px;
+    background: #ededed;
+}
+ .b_bg .per_info .attention {
+     margin: 20px 0 10px 0;
+     width: 301px;
+     height: 24px;
+     line-height: 24px;
+     text-indent: 8px;
+     background: #fffdee;
+     border: 1px solid #f5eecf;
+ }
+
+ .b_bg .per_info .username .img,
+ .b_bg .per_info .password .img {
+     position: absolute;
+     top: 1px;
+     left: 1px;
+     display:block;
+     width: 37px;
+     height: 34px;
+     background: #cdcfcf;
+     background-image: url('../images/icons.png');
+     background-position: -10px -200px;
+ }
+ .b_bg .per_info .password .img {
+     top: 18px;
+     left: 1px;
+     background-position: -72px -198px;
+ }
+
+  .b_bg .per_info .username input,
+  .b_bg .per_info .password input
+   {
+      width: 301px;
+      height: 34px;
+      text-indent: 48px;
+      border: 1px solid #bbbaba;
+      background: #fff;
+      
+  }
+  .b_bg .per_info .password input {
+      margin: 17px 0 20px 0;
+  }
+
+    .b_bg .per_info .zhidong_login {
+        color: #b3b3b3;
+    }
+    .b_bg .per_info .zidong_login>a {
+        color: #333;
+    }
+    button {
+        margin: 20px 0;
+        width: 303px;
+        height: 41px;
+        font-size: 16px;
+        background: #c81623;
+        color: #fff;
+    }
+    .b_bg .per_info .register>img {
+    }
+    .b_bg .per_info .register>a {
+        margin-top: 20px;
+        color: #1474af;
+    }
+
+/*中间登录部分样式结束*/
+
+
+/*尾部样式开始*/
+
+footer {
+    padding: 20px 0 40px 0;
+    text-align: center;
+}
+footer ul {
+    margin-left: 115px;
+}
+footer ul li {
+    float: left;
+}
+footer li.line {
+    margin: 0 15px;
+    width: 1px;
+    height: 12px;
+    background: #999;
+}
+footer p:nth-child(2) {
+    margin: 14px 0 10px 0;
+}
+
+
+/*尾部样式结束*/
+
